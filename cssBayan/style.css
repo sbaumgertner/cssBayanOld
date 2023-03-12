@@ -1,3 +1,73 @@
 body {
-    color: darkblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: 900;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    width: 800px;
+    border: solid 5px #eff0f1;
+    outline: solid 1px #d0d7de;
+    background-color: rgb(245, 245, 231);
+    border-radius: 5px;
+    padding: 30px 70px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    cursor: pointer;
+}
+
+.meme-item {
+    border-top: solid 1px #d0d7de;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.meme-image {
+    align-self: center;
+    width: 300px;
+    height: 0px
+}
+
+.meme-image-expanded {
+    height: 300px;
+}
+
+.meme-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.meme-icon {
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+
+.meme-icon-expanded {
+    transform: rotate(45deg);
+}
+
+.meme-text {
+    color: blue;
+}
+
+.meme-text-expanded {
+    color: black;
 }
