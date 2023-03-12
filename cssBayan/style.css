@@ -44,7 +44,7 @@ label {
 .meme-image {
     align-self: center;
     width: 25vw;
-    height: 0px;
+    height: 0;
     transition: 0.5s;
     margin-top: 1rem;
 }
